@@ -1,0 +1,17 @@
+spring:
+    profiles: dev  #开发环境
+    application:
+        name: SpringCould-kaifa
+        
+---
+spring:
+    profiles: dev  #测试环境
+    application:
+        name: SpringCould-ceshji
+        
+---
+spring:
+    profiles: dev  #生产环境
+    application:
+        name: SpringCould-shengchan
+        
